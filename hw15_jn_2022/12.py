@@ -6,7 +6,7 @@ for l in range(238941, 315675):
     dl = []
     d = 2
     while d * d <= n:
-        if n % d == 0:
+        if n % d == 0 and d**2 != n:
             dl.append(d)
             n //= d
         else:
@@ -14,9 +14,10 @@ for l in range(238941, 315675):
     if n > 1:
         dl.append(n)
     if len(dl) == 2:
-        k += 1
-        if max(dl) - min(dl) > maxa:
-            maxa = max(dl) - min(dl)
-            m = n
-print(k, n)
-#16330 157837
+        if dl[0]**2 != n:
+            k += 1
+            if max(dl) - min(dl) > maxa:
+                maxa = max(dl) - min(dl)
+                m = n
+print(k, m)
+#16386 157837
