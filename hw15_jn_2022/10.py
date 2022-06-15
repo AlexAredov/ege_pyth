@@ -3,11 +3,9 @@ def f(x, y):
     elif x > y: return 0
     else: return f(x + 3, y) + f(x * 3, y)
 k = 0
-sd = []
-for i in range(4, 100):
+for i in range(4, 100, 2):
     s = f(3, i)
-    if s != 0 and s not in sd:
+    if s != 0:
         k += 1
-        sd.append(s)
-print(len(sd))
+print(k)
 #12

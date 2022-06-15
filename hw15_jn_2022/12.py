@@ -13,6 +13,7 @@ for l in range(238941, 315675):
             d += 1
     if n > 1:
         dl.append(n)
+    print(l, dl)
     if len(dl) == 2:
         if dl[0]**2 != n:
             k += 1

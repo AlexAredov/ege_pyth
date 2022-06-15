@@ -7,8 +7,8 @@ for i in range(len(k)):
     k[i] = int(k[i])
 
 sd = []
-for i in range(len(k) - 1):
-    summ = k[i]
+for i in range(len(k)):
+    summ = 0
     for j in range(i, len(k)):
         summ = summ + k[j]
         if summ % 93 == 0 and summ % 2 != 0:

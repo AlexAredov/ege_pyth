@@ -9,7 +9,9 @@ for i1 in s:
                     k += 1
                     if k % 2 == 0:
                         w = i1 + i2 + i3 + i4 + i5
-                        if len(set(w)) == 5:
+                        if (('АА'  not in w) and ('ЕЕ'  not in w)
+                        and ('ЖЖ'  not in w) and ('ЙЙ'  not in w)
+                        and ('ММ'  not in w) and ('УУ'  not in w)):
                             l += 1
 print(l)
 #360?
