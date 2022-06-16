@@ -14,3 +14,4 @@ for i1 in s:
                     and ('ХХ' not in w)):
                         k += 1
 print(k)
+#883

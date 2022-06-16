@@ -7,3 +7,4 @@ def f(x, h, y):
         else:
             return f(x + 3, 0, y) + f(x * 2, 0, y)
 print(f(3, 0, 30))
+#407

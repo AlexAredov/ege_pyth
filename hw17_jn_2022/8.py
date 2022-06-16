@@ -7,3 +7,4 @@ def f(x, d, y):
         else:
             return f(x + 2, d, y) + f(x * 2, d, y) + f(x * 3, d, y)
 print(f(1, 0, 300))
+#5552350004912?

@@ -9,3 +9,4 @@ for i in range(132, 0, -1):
     if f(133, 0, i) == 9:
         k += 1
 print(k)
+#1?

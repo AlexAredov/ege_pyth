@@ -7,3 +7,4 @@ def f(x, y):
         else:
             return f(x + 1, y) + f(x * 2, y) + f(x + 2, y)
 print(f(3, 9) * f(9, 17) * f(17, 25))
+#229635

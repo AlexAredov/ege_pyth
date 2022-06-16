@@ -3,7 +3,7 @@ n = f.readline().split(' ')
 x = int(n[0])
 y = int(n[1])
 n = int(n[2])
-print(x, y, n)
+#print(x, y, n)
 data = []
 for i in range(n):
     s = f.readline().split(' ')
@@ -27,3 +27,4 @@ for i in range(1,y):
     dl.append([dll, i])
     #print(l,a)
 print(dl[0][0], dl[0][1])
+#12 198

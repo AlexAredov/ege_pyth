@@ -16,3 +16,5 @@ for i in range(n):
     else:
         list_sum[ost] = s
 print(max_sum)
+#19437
+#50211537

@@ -3,3 +3,4 @@ def f(x, y):
     elif x > y: return 0
     else: return f(x + 1, y) + f(int(str(x) + '1'), y)
 print(f(1, 555))
+#181

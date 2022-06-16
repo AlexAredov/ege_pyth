@@ -13,7 +13,7 @@ for n in range(n):
     if f == 0:
         k.append(s[n])
 #print(k)
-print(len(k))
+#print(len(k))
 if len(k) % 9 != 0:
     summ1 = k[len(k) % 9 - 1]
     for i in range(0, s.index(k[len(k) % 9 - 1])):
@@ -21,14 +21,16 @@ if len(k) % 9 != 0:
     summ2 = k[-(len(k) % 9)]
     for i in range(len(s) - 1, len(s) - s[::-1].index(k[-(len(k) % 9)]) - 1, -1):
         summ2 += s[i]
-    print(summ1, summ2)
+    #print(summ1, summ2)
     summ = 0
     for i in range(0, len(s)):
         summ += s[i]
-    print(summ)
+    #print(summ)
     if summ1 > summ2:
         summ -= summ2
         print(summ)
     else:
         summ -= summ1
         print(summ)
+#67645
+#69991529

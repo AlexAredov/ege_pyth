@@ -19,3 +19,7 @@ for l in range(100000, 500000):
                 break
         if f == 0 and dd != 0:
             print(l, len(dl) * dd)
+#101065 48
+#124729 24
+#177289 48
+#278185 72
