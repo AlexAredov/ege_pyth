@@ -15,7 +15,6 @@ for i in range(len(s)):
             sd.append(d)
             p *= s[i + 1]
             i += 1
-#print(sd)
 print(len(sd))
 
 #A - 18
