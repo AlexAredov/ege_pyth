@@ -1,14 +1,14 @@
-for l in range(100000, 500000):
+for l in range(100000, 500001):
     n = l
     dl = []
     d = 2
     while d * d <= n:
-        if n % d == 0 and d**2 != n:
+        if n % d == 0 and d**2 != n and (n not in dl):
             dl.append(d)
             n //= d
         else:
             d += 1
-    if n > 1:
+    if n > 1 and n not in dl:
         dl.append(n)
     if len(dl) > 3:
         dd = dl[1] - dl[0]

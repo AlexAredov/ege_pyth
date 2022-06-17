@@ -1,5 +1,5 @@
 k = 0
-for n in range(400000000, 400000100):
+for n in range(400000001, 400000100):
     dl = []
     for i in range(2, int(n**0.5) + 1):
         if n % i == 0 and i**2 != n:
