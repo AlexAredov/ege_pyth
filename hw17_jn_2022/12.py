@@ -10,7 +10,7 @@ for n in range(400000001, 400000100):
     if len(dl) > 7:
         k += 1
         dl.sort(reverse=True)
-        print(dl[7],len(dl))
+        print(dl[6],len(dl))
     if k == 5:
         break
 #16000000 97

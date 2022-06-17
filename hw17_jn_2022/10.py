@@ -3,7 +3,7 @@ for l in range(100000, 500001):
     dl = []
     d = 2
     while d * d <= n:
-        if n % d == 0 and d**2 != n and (n not in dl):
+        if n % d == 0 and d**2 != n and (d not in dl):
             dl.append(d)
             n //= d
         else:
