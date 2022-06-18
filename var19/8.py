@@ -5,6 +5,6 @@ for i1 in s:
         for i3 in s:
             for i4 in s:
                 w = i1 + i2 + i3 + i4
-                if (w.count('A') + w.count('B') == 0):
+                if (w.count('A') + w.count('B') == 1):
                     k += 1
 print(k)
