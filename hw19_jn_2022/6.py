@@ -10,7 +10,7 @@ for i in range(len(s) - 1):
                 sd[n][0] += 1
                 break
         if f == 0:
-            sd.append([0, s[i + 1]])
+            sd.append([1, s[i + 1]])
 sd.sort()
 print(sd[-1][1], sd[-1][0])
-#U 1617
+#U 1618

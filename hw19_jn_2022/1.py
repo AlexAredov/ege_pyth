@@ -15,4 +15,4 @@ for i in range(len(a)):
             if a.index(a[i][::-1]) - i == 26655:
                 #print(a.index(a[i][::-1]), a[a.index(a[i][::-1])])
                 print(i, a[i])
-#16475
+#24
